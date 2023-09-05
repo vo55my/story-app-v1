@@ -7,7 +7,7 @@ import './components/index';
 // Import javascript file as needed
 import Dashboard from './pages/dashboard';
 import AddStory from './pages/story/add';
-import * as bootstrap from 'bootstrap';
+import { Buttons, Cards, Modals, Close, Forms } from 'bootstrap';
 
 const routes = {
   '/': Dashboard,
